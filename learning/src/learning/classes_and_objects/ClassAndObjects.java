@@ -20,6 +20,7 @@ class Demo{
 		System.out.println(name);
 		System.out.println(age);
 		
+		
 	}
 	public void print(int id,String name,int age) {
 		
@@ -31,6 +32,8 @@ class Demo{
 			
 	}
 	
+	
+
 	public String apply(int age) {
 		
 		String result=  age>18?"you apply":"your not eligble";
