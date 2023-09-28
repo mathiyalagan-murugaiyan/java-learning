@@ -7,9 +7,11 @@ public class ArrayCalculateTotalMark {
 	public static void main(String[] args) {
 		
 		
-		findTotal();
+		findTotal();//method calling
 	}
 
+	
+	
 	private static void findTotal() {
 		int[]mark = new int[5];
 		int total = 0;
