@@ -1,6 +1,6 @@
 package data_structurs_in_java;
 
-public class Array_DataStructure_Methods {
+public class Array_DataStructure_LinearSearch_Methods {
 
 	public static int findElement(int[] num, int target) {
 		
@@ -43,6 +43,21 @@ public class Array_DataStructure_Methods {
 			}
 		}
 		return false;
+	}
+
+	public static int[] findElement(int[][] num, int element) {
+	
+		for(int row=0;row<num.length;row++) {
+			for(int col=0;col<num[row].length;col++) {
+				
+				if(num[row][col]==element) {
+					
+					return  new int[] {row,col};
+				}
+			}
+		}
+		return new int[] {-1,-1};
+		
 	}
 	
 
